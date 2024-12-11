@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Started"
+        android:textSize="18sp"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/startservice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        app:layout_constraintTop_toBottomOf="@id/status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/stopservice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        app:layout_constraintTop_toBottomOf="@id/startservice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsPanel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/stopservice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button
+            android:id="@+id/pause_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pause"/>
+
+        <Button
+            android:id="@+id/resume_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Resume"/>
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stop Playback"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonsPanel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/songButtonsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/song1_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Song 1"
+                android:tag="1"/>
+            <Button
+                android:id="@+id/song2_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Song 2"
+                android:tag="2"/>
+            <Button
+                android:id="@+id/song3_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Song 3"
+                android:tag="3"/>
+            <Button
+                android:id="@+id/song4_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Song 4"
+                android:tag="4"/>
+            <Button
+                android:id="@+id/song5_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Song 5"
+                android:tag="5"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

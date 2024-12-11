@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClipServer</string>
+    <string name="this_is_service_app_open_the_client_app">This is service app. Open the client app</string>
+</resources>

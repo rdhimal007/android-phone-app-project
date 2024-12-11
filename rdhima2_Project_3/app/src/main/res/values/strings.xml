@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Landmark App</string>
+    <array name="landmarks">
+        <item>Museum of Science and Industry</item>
+        <item>Wrigley Field</item>
+        <item>Lincoln Park Zoo</item>
+        <item>Willis Tower</item>
+        <item>John Hancock Center</item>
+        <item>NBC Tower</item>
+
+
+    </array>
+    <string name="exit">Exit</string>
+    <string name="launch_a2">Launch A2</string>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/exit" />
+
+    <item
+        android:id="@+id/action_launch_a2"
+        android:title="@string/launch_a2" />
+</menu>
