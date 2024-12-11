@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher
+id go_button
+id labeloutput
+id output
+layout main
+string app_name
+string get_new_id_string
+string your_id_string

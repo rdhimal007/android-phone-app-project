@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/raw_mfile1.mp3.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/raw/mfile1.mp3"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/raw_badnews.m4a.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/raw/badnews.m4a"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/raw_mfile2.mp3.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/raw/mfile2.mp3"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/layout_main.xml.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/layout/main.xml"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/raw_mfile3.mp3.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/raw/mfile3.mp3"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/raw_mfile4.mp3.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/raw/mfile4.mp3"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-merged_res-21:/layout_main_activity.xml.flat",
+        "source": "/Users/rossdhimal/.gradle/daemon/8.2/course.examples.Services.MusicService.app-main-23:/layout/main_activity.xml"
+    }
+]

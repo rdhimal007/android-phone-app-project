@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher
+layout main_activity
+raw badnews
+raw mfile1
+raw mfile2
+raw mfile3
+raw mfile4
+string app_name
+string start_service_string
+string stop_service_string

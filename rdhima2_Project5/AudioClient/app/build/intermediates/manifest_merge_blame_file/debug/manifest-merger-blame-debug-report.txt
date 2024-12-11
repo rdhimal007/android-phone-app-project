@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="course.examples.Services.KeyClient"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="course.examples.Services.KeyService.GEN_ID" />
+11-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:7:5-82
+11-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:7:22-79
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:8:5-76
+12-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:8:22-74
+13
+14    <application
+14-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:10:5-24:19
+15        android:allowBackup="false"
+15-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:11:9-36
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.0] /Users/ugobuy/.gradle/caches/transforms-3/7ed928dd7e04866c4c80e741da716c88/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@drawable/ic_launcher"
+19-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:12:9-45
+20        android:testOnly="true" >
+21        <activity
+21-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:14:9-22:20
+22            android:name="course.examples.Services.KeyClient.KeyServiceUser"
+22-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:15:13-43
+23            android:exported="true"
+23-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:17:13-36
+24            android:label="@string/app_name" >
+24-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:16:13-45
+25            <intent-filter>
+25-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:18:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:19:17-69
+26-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:19:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:20:17-77
+28-->/Users/ugobuy/CS478 API 32 updated apps/Services/ServiceWithIPCExampleClient/app/src/main/AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

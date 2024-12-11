@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "course.examples.Services.MusicService"
+        minSdkVersion 26
+        targetSdkVersion 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    buildFeatures{
+        aidl true
+    }
+
+    dependencies {
+        //noinspection GradleCompatible
+        implementation "com.android.support:support-compat:34.0.0"
+    }
+
+    namespace "course.examples.Services.MusicService"
+}
+
+dependencies {
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+}
